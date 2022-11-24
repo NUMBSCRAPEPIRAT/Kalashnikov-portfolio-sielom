@@ -76,12 +76,10 @@
  body {
     height: 100%;
     line-height: 1;
-    background-color: #222222;
-    background: radial-gradient(at bottom right, #222222 0, #222222 16px, rgba(34,34,34,0.2) 16px, rgba(34,34,34,0.2) 32px, rgba(34,34,34,0.75) 32px, rgba(34,34,34,0.75) 48px, rgba(34,34,34,0.25) 48px, rgba(34,34,34,0.25) 64px, rgba(34,34,34,0.3) 64px, rgba(34,34,34,0.3) 80px, rgba(34,34,34,0.75) 80px, rgba(34,34,34,0.75) 96px, rgba(34,34,34,0.2) 96px, rgba(34,34,34,0.2) 112px, transparent 112px, transparent 128px), radial-gradient(at top left, transparent 0, transparent 16px, rgba(34,34,34,0.2) 16px, rgba(34,34,34,0.2) 32px, rgba(34,34,34,0.75) 32px, rgba(34,34,34,0.75) 48px, rgba(34,34,34,0.3) 48px, rgba(34,34,34,0.3) 64px, rgba(34,34,34,0.25) 64px, rgba(34,34,34,0.25) 80px, rgba(34,34,34,0.75) 80px, rgba(34,34,34,0.75) 96px, rgba(34,34,34,0.2) 96px, rgba(34,34,34,0.2) 112px, #222222 112px, #222222 128px, transparent 128px, transparent 320px);
+    background: radial-gradient(at bottom right, rgba(187, 187, 187, 0.11) 0, rgba(187, 187, 187, 0.11) 8px, rgba(187,187,187,0.2) 8px, rgba(187,187,187,0.2) 16px, rgba(187,187,187,0.75) 16px, rgba(187,187,187,0.75) 24px, rgba(187,187,187,0.25) 24px, rgba(187,187,187,0.25) 32px, rgba(187,187,187,0.3) 32px, rgba(187,187,187,0.3) 40px, rgba(187,187,187,0.75) 40px, rgba(187,187,187,0.75) 48px, rgba(187,187,187,0.2) 48px, rgba(187,187,187,0.2) 56px, transparent 56px, transparent 64px), radial-gradient(at top left, transparent 0, transparent 8px, rgba(187,187,187,0.2) 8px, rgba(187,187,187,0.2) 16px, rgba(187,187,187,0.75) 16px, rgba(187,187,187,0.75) 24px, rgba(187,187,187,0.3) 24px, rgba(187,187,187,0.3) 32px, rgba(187,187,187,0.25) 32px, rgba(187,187,187,0.25) 40px, rgba(187,187,187,0.75) 40px, rgba(187,187,187,0.75) 48px, rgba(187,187,187,0.2) 48px, rgba(187,187,187,0.2) 56px, rgba(187, 187, 187, 0.11) 56px, rgba(187, 187, 187, 0.11) 64px, transparent 64px, transparent 160px);
     background-blend-mode: multiply;
-    background-size: 128px 128px, 128px 128px;
-    background-color: #00ffff;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    background-size: 64px 64px, 64px 64px;
+    background-color: #595959;
  }
  .gigachad .picture {
     display: flex;
@@ -89,20 +87,46 @@
     max-width: auto;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
+    border-radius: 150px;
  }
 
-.elements .elements-li {
-    display: inline;
+
+.elements {
+    display: flex;
     justify-content: space-around;
     width: 100%;
     max-width: auto;
-    color: #0000;
+    color: white;
     font-size: 25px;
     padding-top: 36px;
     padding-bottom: 35px;
-    margin-left: 100px;
-    
+}
+
+.elements-a {
+    color: white;
+}
+
+.main-text {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+
+
+.main-text {
+    width: 100%;
+    max-width: auto;
+}
+.ul-text-1{
+   color: white;
+}
+
+.lending-project{
+   color: white;
+}
+@font-face {
+   font-family:Beer Money ;
+   src: url(./fonts/beer\ money.ttf);
 }
